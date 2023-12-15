@@ -6,3 +6,6 @@ cd securityquiz
 python manage.py startapp quiz
 
 
+(after creating and configuring all files run the final command given below)
+
+python manage.py runserver
