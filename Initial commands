@@ -1,0 +1,8 @@
+pip install django
+
+django-admin startproject securityquiz
+cd securityquiz
+
+python manage.py startapp quiz
+
+
