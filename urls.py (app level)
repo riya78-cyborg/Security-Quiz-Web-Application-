@@ -1,0 +1,6 @@
+from django.urls import path
+from .views import quiz_view
+
+urlpatterns = [
+    path('<int:quiz_id>/', quiz_view, name='quiz_view'),
+]
